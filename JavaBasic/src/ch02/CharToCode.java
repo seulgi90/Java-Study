@@ -14,5 +14,6 @@ public class CharToCode {
 		char hch = '가';
 		
 		System.out.printf("%c=%d(%#X)%n", hch, (int) hch, (int) hch); // 가=44032(0XAC00)
+		
 	}
 }
