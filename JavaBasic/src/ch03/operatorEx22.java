@@ -17,6 +17,12 @@ public class operatorEx22 {
 		System.out.printf("f == %19.17f%n", f); // f == 0.10000000149011612
 		System.out.printf("d == %19.17f%n", d); // d == 0.10000000000000000
 		System.out.printf("d2 == %19.17f%n", d2); // d2 == 0.10000000149011612
+		
+		System.out.printf("d == f  %b%n", d == f); // d == f  false
+		System.out.printf("d == d2  %b%n", d == d2); // d == d2  false : float타입의 값을 정밀도가 높은 double타입으로 형변환했다고해서 오차가 적어지는것은 아님
+		System.out.printf("d2 == f  %b%n", d2 == f); // d2 == f  true
+		System.out.printf("(float) d==f  %b%n", (float) d == f); // (float) d==f  true
+		
 	}
 
 }
