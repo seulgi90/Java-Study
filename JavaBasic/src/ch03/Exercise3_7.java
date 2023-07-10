@@ -15,5 +15,12 @@ public class Exercise3_7{
 		
 		System.out.println("fahrenheit:" +  fahrenheit);
 		System.out.println("celcius:" +  celcius);
+		
+		// -----------------------------------------------------------
+		float f = 3 /2;
+		System.out.println(f); // 1.0
+		
+		float f1 = 3 /2f;
+		System.out.println(f1); // 1.5
 	}
 }
