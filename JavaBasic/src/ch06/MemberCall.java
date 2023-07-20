@@ -37,6 +37,7 @@ public class MemberCall {
 		c.instanceMethod(); // 인스턴스를 생성한 후에야 호출할 수 있다
 	}
 	
+	
 	void instanceMethod2() { // 인스턴스 메서드에서는 
 		staticMethod1(); // 인스턴스 메서드와 
 		instanceMethod(); // 클래스 메서드 모두 인스턴스 생성없이 바로 호출 가능 
